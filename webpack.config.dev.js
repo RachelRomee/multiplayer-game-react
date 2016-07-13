@@ -29,5 +29,5 @@ module.exports = {
     postLoaders: [
       { loader: "transform?brfs" }
     ]
-  },
+  }
 };
