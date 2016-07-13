@@ -25,6 +25,9 @@ module.exports = {
     })
   ],
   module: {
+    postLoaders: [{
+      loader: "transform?brfs"
+    }]
     loaders: [{
       test: /\.jsx?/,
       loader: 'babel',
